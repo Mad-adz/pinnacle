@@ -1,0 +1,389 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* navigation bar starts  */
+.navbar1 {
+  background-color: white;
+  color: #4d4d4d;
+}
+
+#logo-img {
+  width: 150px;
+}
+#logo {
+  color: #263238;
+}
+#contact-btn {
+  width: 130px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bf63;
+}
+#contact-btn a {
+  color: white;
+}
+#contact-btn a:hover {
+  color: #263238;
+}
+#contact-btn:hover {
+  background-color: transparent;
+  transition: 0.3s ease;
+}
+
+/* navigation bar ends */
+
+/* banner section starts  */
+#banner-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.banner-section {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+}
+#order-btn {
+  color: white;
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00bf63;
+}
+#order-btn:hover {
+  background-color: transparent;
+  transition: 0.3s ease;
+}
+#banner-content {
+  margin-top: 200px;
+}
+#banner-content h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner-content p {
+  color: white;
+  font-size: 18px;
+}
+/* banner section ends */
+
+/* why choose us section starts  */
+
+#agent-image img {
+  width: 500px;
+  height: 535px;
+  border-radius: 10px;
+}
+
+.icon i {
+  font-size: 40px;
+  color: #00bf63;
+}
+
+/* why choose us section ends */
+
+/* about us section starts  */
+
+.aboutus-section {
+  background-color: #00bf63;
+  overflow: hidden !important;
+}
+
+#about-image {
+  width: 100%;
+  border-radius: 10px;
+  height: 350px;
+}
+/* about us section ends */
+
+/* our services section starts  */
+
+#services-card {
+  height: 250px;
+  padding: 20px;
+}
+
+#services-card i {
+  font-size: 32px;
+}
+
+#services-card:hover {
+  background-color: #00bf63;
+  color: white;
+  transition: all 0.5ss ease;
+}
+
+/* our services section ends  */
+
+/* testimonial section starts */
+
+.testimonial-section {
+  background-color: #00bf63;
+}
+#testimonial-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+/* testimonial section ends */
+
+/* swiper section starts */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.clients {
+  background-color: var(--primary-bg-lighten);
+}
+
+.client-swiper .swiper-slide {
+  width: 100%;
+  height: 120px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+.client-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+/* swiper section ends */
+
+/* footer section starts  */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #00bf63;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #263238;
+}
+.single-cta i {
+  color: #263238;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: white;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: white;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.footer-social-icon a:hover {
+  color: #263238;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg {
+  background: #3b5998;
+}
+.twitter-bg {
+  background: #55acee;
+}
+.google-bg {
+  background: #dd4b39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #263238;
+}
+.useful-links ul {
+  padding-left: 0;
+}
+.useful-links ul li {
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #263238;
+}
+.footer-widget ul li a {
+  color: white;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: white;
+  border: 1px solid white;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #00bf63;
+  padding: 13px 20px;
+  border: 1px solid white;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #ffffff;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #070707;
+}
+.copyright-text p a {
+  color: #00bf63;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #00bf63;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #000000;
+}
+
+/* footer section ends  */
+
+/* media query starts */
+
+/* banner section start  */
+@media (max-width: 1024px) {
+  #banner-content {
+    margin-top: 350px;
+  }
+  #banner-content h1 {
+    font-size: 70px;
+  }
+  #banner-content p {
+    font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  #banner-content {
+    margin-top: 250px;
+  }
+  #banner-content h1 {
+    font-size: 50px;
+  }
+  #banner-content p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 540px) {
+  #banner-content {
+    margin-top: 140px;
+  }
+  #banner-content h1 {
+    font-size: 30px;
+  }
+  #banner-content p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  #banner-content {
+    margin-top: 100px;
+  }
+  #banner-content h1 {
+    font-size: 30px;
+  }
+  #banner-content p {
+    font-size: 18px;
+  }
+}
+
+/* banner section ends  */
+
+/* media query ends */

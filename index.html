@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinnacle</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header class="navbar1">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <img src="./img/logo with image.png" alt="" id="logo-img" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a class="nav-link" aria-current="page" href="">Home</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link" href="">Features</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link" href="">Community</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link" href="">About</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+
+              <li class="nav-item px-3">
+                <button id="contact-btn">
+                  <a class="nav-link cta" href="#">Contact Us</a>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navigation bar ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner-section">
+      <img
+        src="/img/pexels-thelazyartist-1642125.jpg"
+        alt=""
+        id="banner-image"
+      />
+      <div class="container">
+        <div class="row">
+          <div class="banner-content d-flex flex-column flex-lg-row">
+            <div class="col-12 text-center" id="banner-content">
+              <h1 class="fw-bold">
+                Find Your Dream Home Today – Explore Affordable Apartments,
+                Luxurious Villas
+              </h1>
+              <p class="">
+                Thousands Of Luxury Home Enthusiasts Just Like You Visit Our
+                Website.Explore a wide range of properties, from cozy apartments
+                to luxurious villas, all tailored to your needs and budget.
+              </p>
+              <button id="order-btn">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- why choose us section starts   -->
+
+    <section class="why choose us mb-5">
+      <div class="container">
+        <h2 class="fw-bolder text-center mt-5" data-aos="fade-up">
+          Why Choose Us
+        </h2>
+        <div class="row d-flex flex-lg-row" data-aos="fade-up">
+          <div class="col-12 col-lg-6 mt-5" id="agent-image">
+            <img src="./img/pexels-a-darmel-7641856.jpg" alt="" class="w-100" />
+          </div>
+          <div class="col-12 col-lg-6 mt-5">
+            <div class="text-center text-lg-start">
+              <h2 class="text-black">
+                We Bring Your Dream <br />
+                Homes to Reality
+              </h2>
+              <p class="text-secondary">
+                We offer perfect real estate services
+              </p>
+            </div>
+
+            <hr />
+
+            <!-- card one starts -->
+            <div
+              class="d-flex flex-row gap-3 mt-4"
+              id="choose-content"
+              data-aos="fade-up"
+            >
+              <div class="icon">
+                <i class="bx bx-buildings mt-3"></i>
+              </div>
+              <div class="text">
+                <h3 class="">Property Management</h3>
+                <p class="text-secondary">
+                  Maximize the value of your property with our expert property
+                  management services. From tenant placement to maintenance.
+                </p>
+              </div>
+            </div>
+            <!-- card one ends -->
+            <hr />
+
+            <!-- card two starts -->
+            <div
+              class="d-flex flex-row gap-3 mt-4"
+              id="choose-content"
+              data-aos="fade-up"
+            >
+              <div class="icon">
+                <i class="bx bxs-bank mt-3"></i>
+              </div>
+              <div class="text">
+                <h3 class="">Mortgage Services</h3>
+                <p class="text-secondary">
+                  Buying your dream home is now easier than ever with our expert
+                  mortgage services. Whether you’re a first-time homebuyer or
+                  looking to refinance .
+                </p>
+              </div>
+            </div>
+            <!-- card two ends -->
+            <hr />
+
+            <!-- card three starts -->
+
+            <div
+              class="d-flex flex-row gap-3 mt-4"
+              id="choose-content"
+              data-aos="fade-up"
+            >
+              <div class="icon">
+                <i class="bx bx-coin-stack mt-3"></i>
+              </div>
+              <div class="text">
+                <h3 class="">Financing made easy</h3>
+                <p class="text-secondary">
+                  Unlock the doors to your dream home with our hassle-free
+                  financing solutions.Whether you're buying your first home or
+                  investing in real estate.
+                </p>
+              </div>
+            </div>
+            <!-- card three ends-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why choose us section ends   -->
+
+    <!-- about us section starts  -->
+
+    <section class="aboutus-section" data-aos="fade-up">
+      <div class="container">
+        <div class="row gx-5 mt-0s mt-lg-5">
+          <h2 class="text-center fw-bold text-white mt-5" data-aos="fade-up">
+            About us
+          </h2>
+          <div class="col-12 col-lg-6 mt-lg-4">
+            <img
+              src="./img/about us.jpg"
+              alt=""
+              id="about-image"
+              class="h-75"
+            />
+          </div>
+          <div class="col-12 col-lg-6 mt-lg-4">
+            <h2 class="text-white">
+              Who We Are – Your Trusted Real Estate Partner
+            </h2>
+            <hr class="text-white" />
+            <p class="text-white mt-2">
+              At Pinnacle, we specialize in connecting people with their dream
+              homes. With years of experience in the real estate market, we take
+              pride in offering a seamless property buying, selling, and renting
+              experience. Whether you're searching for a cozy apartment, a
+              luxurious villa, or a commercial space, our team of expert agents
+              is here to guide you every step of the way. Our mission is simple
+              – to provide exceptional service, trusted advice, and verified
+              property listings that meet your needs and exceed your
+              expectations. Backed by professionalism, transparency, and
+              integrity, we’re committed to helping you find not just a house
+              but a place to call home. Discover why countless clients trust us
+              for their real estate journeys. Let us help you turn your dreams
+              into reality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us section ends -->
+
+    <!-- our services section starts  -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center mt-5 fw-bold" data-aos="fade-up">
+            Our Services
+          </h2>
+
+          <div
+            class="col-12 d-flex flex-column flex-lg-row mt-3 gap-3"
+            data-aos="fade-up"
+          >
+            <div
+              class="card col-lg-4 text-center justify-content-center"
+              id="services-card"
+            >
+              <i class="bx bxs-home"></i>
+              <h3>Property Buying</h3>
+              <p>
+                Discover your dream home with ease. Our team helps you find the
+                perfect property based on your budget, preferences, and
+                lifestyle.
+              </p>
+            </div>
+
+            <div
+              class="card col-lg-4 text-center justify-content-center"
+              id="services-card"
+            >
+              <i class="bx bx-money-withdraw"></i>
+              <h3>Property Selling</h3>
+              <p>
+                Sell your property faster and at the best price. We offer market
+                insights, professional listings, and effective marketing
+                strategies.
+              </p>
+            </div>
+
+            <div
+              class="card col-lg-4 text-center justify-content-center"
+              id="services-card"
+            >
+              <i class="las la-hand-holding-usd"></i>
+              <h3>Property Rentals</h3>
+              <p>
+                Looking to rent? Browse verified rental listings for homes,
+                apartments, or commercial spaces that suit your needs.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-12 d-flex flex-column flex-lg-row gap-3 mt-3"
+            data-aos="fade-up"
+          >
+            <div
+              class="card col-lg-4 text-center justify-content-center"
+              id="services-card"
+            >
+              <i class="las la-house-damage"></i>
+              <h3>Home Valuation</h3>
+              <p>
+                Get an accurate and free valuation of your property to know its
+                current market value and make informed decisions.
+              </p>
+            </div>
+
+            <div
+              class="card col-lg-4 text-center justify-content-center"
+              id="services-card"
+            >
+              <i class="las la-file-contract"></i>
+              <h3>Legal Assistance</h3>
+              <p>
+                Navigate property transactions with confidence. We provide
+                expert legal guidance for buying, selling, and renting
+                properties.
+              </p>
+            </div>
+
+            <div
+              class="card col-lg-4 text-center justify-content-center"
+              id="services-card"
+            >
+              <i class="las la-user-tie"></i>
+              <h3>Investment Consulting</h3>
+              <p>
+                Maximize your returns with the best property investment
+                opportunities. Our experts guide you through profitable real
+                estate options.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our services section ends  -->
+
+    <!-- testimonial section starts  -->
+
+    <section class="testimonial-section mt-5 pb-5" data-aos="fade-up">
+      <div class="container">
+        <h3
+          class="text-center pb-4 pt-5 fw-bold"
+          style="color: white"
+          data-aos="fade-up"
+        >
+          OUR TESTIMONIALS
+        </h3>
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel "
+        >
+          <div class="carousel-inner" style="width: 100%">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div
+                      class="d-flex flex-column align-items-center justify-content-center text-center"
+                    >
+                      <div class="testimonial-card">
+                        <img
+                          src="./img/sarah.jpg"
+                          alt=""
+                          class="pb-4"
+                          id="testimonial-img"
+                        />
+                        <p class="p-4" style="color: white; text-align: center">
+                          FoodieXpress has transformed the way I enjoy meals.
+                          The convenience ordering my favorite dishes from local
+                          restaurants and having them delivered to my doorstep
+                          is simply fantastic.
+                        </p>
+                        <h3 class="testimonial-name" style="color: white">
+                          SARAH M
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div
+                      class="d-flex flex-column align-items-center justify-content-center text-center"
+                    >
+                      <div class="testimonial-card">
+                        <img
+                          src="./img/john.jpg"
+                          alt=""
+                          class="pb-4"
+                          id="testimonial-img"
+                        />
+                        <p class="p-4" style="color: white; text-align: center">
+                          FoodieXpress has transformed the way I enjoy meals.
+                          The convenience ordering my favorite dishes from local
+                          restaurants and having them delivered to my doorstep
+                          is simply fantastic.
+                        </p>
+                        <h3 class="testimonial-name" style="color: white">
+                          JOHN J
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section ends  -->
+
+    <!-- swiper section starts -->
+
+    <section class="clients section mb-5">
+      <div class="container">
+        <div class="col-12">
+          <h2 class="section-title text-center fw-bold mt-5" data-aos="fade-up">
+            Our Clients
+          </h2>
+        </div>
+        <div class="swiper client-swiper mt-5" data-aos="fade-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/4.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/5.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/6.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/7.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- swiper section ends -->
+
+    <!-- footer section starts  -->
+    <footer class="footer-section" data-aos="fade-up">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="bx bxs-map"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>1010 Avenue, sw 54321, chandigarh</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="bx bxs-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>9876543210 0</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="bx bx-envelope"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>mail@info.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img
+                      src="./img/logo with image.png"
+                      class="img-fluid"
+                      alt="logo"
+                  /></a>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    At Pinnacle, we specialize in connecting people with their
+                    dream homes. With years of experience in the real estate
+                    market, we take pride in offering a seamless property
+                    buying, selling, and renting experience.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="bx bxl-facebook-square"></i></a>
+                  <a href="#"><i class="bx bxl-twitter"></i></a>
+                  <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <div class="d-flex flex-row useful-links">
+                  <div>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">about</a></li>
+                      <li><a href="#">services</a></li>
+                      <li><a href="#">portfolio</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Our Services</a></li>
+                      <li><a href="#">Expert Team</a></li>
+                      <li><a href="#">Contact us</a></li>
+                      <li><a href="#">Latest News</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+
+                <div class="footer-text mb-25">
+                  <p>
+                    Don't miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="bx bxl-telegram"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2018, All Right Reserved
+                  <a href=""></a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section ends  -->
+
+    <script type="module" src="./js/swiper_slider.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- aos script start -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- aos script end -->
+  </body>
+</html>
