@@ -20,7 +20,7 @@
   width: 130px;
   border: none;
   border-radius: 5px;
-  background-color: #00bf63;
+  background-color: #2e6694;
 }
 #contact-btn a {
   color: white;
@@ -56,18 +56,20 @@
   height: 50px;
   border: none;
   border-radius: 5px;
-  background-color: #00bf63;
+  background-color: #2e6694;
 }
 #order-btn:hover {
   background-color: transparent;
   transition: 0.3s ease;
 }
 #banner-content {
-  margin-top: 200px;
+  margin-top: 140px;
 }
+
 #banner-content h1 {
   color: white;
-  font-size: 50px;
+  font-size: 72px;
+  font-weight: bold;
 }
 #banner-content p {
   color: white;
@@ -85,7 +87,7 @@
 
 .icon i {
   font-size: 40px;
-  color: #00bf63;
+  color: #2e6694;
 }
 
 /* why choose us section ends */
@@ -93,7 +95,7 @@
 /* about us section starts  */
 
 .aboutus-section {
-  background-color: #00bf63;
+  background-color: #2e6694;
   overflow: hidden !important;
 }
 
@@ -116,9 +118,9 @@
 }
 
 #services-card:hover {
-  background-color: #00bf63;
+  background-color: #2e6694;
   color: white;
-  transition: all 0.5ss ease;
+  transition: all 0.5s ease;
 }
 
 /* our services section ends  */
@@ -126,7 +128,7 @@
 /* testimonial section starts */
 
 .testimonial-section {
-  background-color: #00bf63;
+  background-color: #2e6694;
 }
 #testimonial-img {
   width: 200px;
@@ -136,7 +138,7 @@
 
 /* testimonial section ends */
 
-/* swiper section starts */
+/* swiper section starts
 .swiper {
   width: 100%;
   height: 100%;
@@ -162,7 +164,26 @@
   background-color: #fff;
 }
 
-/* swiper section ends */
+swiper section ends */
+
+/* details section starts  */
+
+.single-cta i {
+  color: #000000;
+  font-size: 40px;
+}
+
+.cta-text h4 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cta-text span {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+/* details section ends  */
 
 /* footer section starts  */
 ul {
@@ -170,31 +191,8 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #00bf63;
+  background: #2e6694;
   position: relative;
-}
-.footer-cta {
-  border-bottom: 1px solid #263238;
-}
-.single-cta i {
-  color: #263238;
-  font-size: 30px;
-  float: left;
-  margin-top: 8px;
-}
-.cta-text {
-  padding-left: 15px;
-  display: inline-block;
-}
-.cta-text h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-.cta-text span {
-  color: white;
-  font-size: 15px;
 }
 .footer-content {
   position: relative;
@@ -235,7 +233,7 @@ ul {
 }
 
 .footer-social-icon a:hover {
-  color: #263238;
+  color: #000000;
 }
 .footer-social-icon i {
   height: 40px;
@@ -267,7 +265,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #263238;
+  background: #ffffff;
 }
 .useful-links ul {
   padding-left: 0;
@@ -280,11 +278,12 @@ ul {
 }
 
 .footer-widget ul li a:hover {
-  color: #263238;
+  color: rgb(0, 0, 0);
 }
 .footer-widget ul li a {
   color: white;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .subscribe-form {
   position: relative;
@@ -300,7 +299,7 @@ ul {
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #00bf63;
+  background: #2e6694;
   padding: 13px 20px;
   border: 1px solid white;
   top: 0;
@@ -311,27 +310,28 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area {
-  background: #ffffff;
+  background: #2e6694;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #070707;
+  color: #ffffff;
 }
 .copyright-text p a {
-  color: #00bf63;
+  color: #2e6694;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: #00bf63;
+  color: #000000;
 }
 .footer-menu li a {
+  text-decoration: none;
   font-size: 14px;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* footer section ends  */
@@ -339,10 +339,8 @@ ul {
 /* media query starts */
 
 /* banner section start  */
-@media (max-width: 1024px) {
-  #banner-content {
-    margin-top: 350px;
-  }
+
+@media (max-width: 1400px) {
   #banner-content h1 {
     font-size: 70px;
   }
@@ -350,32 +348,33 @@ ul {
     font-size: 32px;
   }
 }
-@media (max-width: 768px) {
-  #banner-content {
-    margin-top: 250px;
+
+@media (max-width: 1200px) {
+  #banner-content h1 {
+    font-size: 70px;
   }
+  #banner-content p {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1024px) {
   #banner-content h1 {
     font-size: 50px;
   }
   #banner-content p {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
-@media (max-width: 540px) {
-  #banner-content {
-    margin-top: 140px;
-  }
+@media (max-width: 768px) {
   #banner-content h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
   #banner-content p {
     font-size: 18px;
   }
 }
-@media (max-width: 320px) {
-  #banner-content {
-    margin-top: 100px;
-  }
+
+@media (max-width: 576px) {
   #banner-content h1 {
     font-size: 30px;
   }
