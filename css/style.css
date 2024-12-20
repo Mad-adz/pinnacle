@@ -207,6 +207,9 @@ ul {
   background-position: 100% 100%;
 }
 .footer-logo {
+  width: 150px;
+  height: 40px;
+  background-color: #ffffff;
   margin-bottom: 30px;
 }
 .footer-logo img {
